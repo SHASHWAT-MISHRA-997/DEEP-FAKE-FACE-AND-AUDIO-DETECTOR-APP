@@ -1,7 +1,6 @@
-import streamlit as st    
-
-import numpy as np
+import streamlit as st  
 import cv2
+import numpy as np
 from helpers import detect_fake_face, analyze_audio_features
 import sqlite3
 import matplotlib.pyplot as plt
